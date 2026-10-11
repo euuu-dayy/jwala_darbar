@@ -1,0 +1,120 @@
+:root {
+  /* =========================================================
+     CORE BRAND COLORS
+     ========================================================= */
+
+  --cream: #f7f0df;
+  --cream-light: #fffaf0;
+
+  --maroon: #54151d;
+  --maroon-dark: #28090e;
+
+  --navy: #080d18;
+  --navy-light: #121a2a;
+
+  --gold: #d6a84f;
+  --gold-light: #f1d28a;
+
+
+  /* =========================================================
+     DYNAMIC FESTIVAL THEME
+     These values will later come from the backend.
+     ========================================================= */
+
+  --theme-primary: #f4c542;
+  --theme-secondary: #a87900;
+
+  --theme-accent: #ffd966;
+  --theme-accent-light: #fff1b8;
+  --theme-accent-dark: #765500;
+
+  --theme-glow: #ffe48a;
+
+  --theme-particle: #ffd966;
+  --theme-particle-soft: #fff1b8;
+
+
+  /* =========================================================
+     TYPOGRAPHY
+     ========================================================= */
+
+  --font-display:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  --font-body:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+
+  /* =========================================================
+     LAYOUT
+     ========================================================= */
+
+  --container-width: 1400px;
+
+  --nav-height: 82px;
+
+  --section-padding: 120px;
+
+  --page-padding: 32px;
+
+
+  /* =========================================================
+     BORDER RADIUS
+     ========================================================= */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+
+  /* =========================================================
+     SHADOWS
+     ========================================================= */
+
+  --shadow-soft:
+    0 20px 60px rgba(0, 0, 0, 0.12);
+
+  --shadow-dark:
+    0 20px 60px rgba(0, 0, 0, 0.28);
+
+  --shadow-glow:
+    0 0 60px rgba(255, 214, 102, 0.15);
+
+
+  /* =========================================================
+     TRANSITIONS
+     ========================================================= */
+
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s ease;
+  --transition-slow: 0.8s ease;
+}
+
+
+/* =========================================================
+   RESPONSIVE VARIABLES
+   ========================================================= */
+
+@media (max-width: 900px) {
+  :root {
+    --nav-height: 72px;
+    --section-padding: 90px;
+    --page-padding: 24px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  :root {
+    --section-padding: 70px;
+    --page-padding: 18px;
+  }
+}
